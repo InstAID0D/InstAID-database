@@ -1,0 +1,25 @@
+code for updating 
+
+user_tb
+
+UPDATE `user_tb` SET `user_ContactNumber` = '96188123', `user_address` = '\r\n1420 A Maceda st. Corner Loyola Streets Sampaloc 1008', `user_EmergencyContact` = '906743251' WHERE `user_tb`.`user_id` = 1;
+
+respondent_tb
+
+UPDATE `responder_tb` SET `responder_LastName` = 'Ward', `responder_age` = '38', `responder_ContactNumber` = '90672259' WHERE `responder_tb`.`responder_id` = 1103;
+
+ambulance_tb
+UPDATE `ambulance_tb` SET `ambulance_address` = '107 Hillcrest Drive Pasig City', `ambulance_capacity` = '2' WHERE `ambulance_tb`.`ambulance_address` = '207 Hillcrest Drive Pasig City';
+
+code for deletion
+
+DELETE FROM user_tb WHERE user_id=10;
+
+DELETE FROM `responder_tb` WHERE `responder_tb`.`responder_id` = 1110;
+
+DELETE FROM `hospital_tb` WHERE `hospital_tb`.`hospital_address` = 'Real Street Barangay Songco';
+
+DELETE FROM `ambulance_tb` WHERE `ambulance_tb`.`ambulance_address` = 'LBP Bldg. National H-way corner, Pacquing Street';
+
+
+

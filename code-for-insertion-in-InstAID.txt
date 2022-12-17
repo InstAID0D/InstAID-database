@@ -1,0 +1,66 @@
+insert into user_tb
+
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('002', 'Norris', 'Penzak', '989674494', 'Unit 11 & 12 Richland Bldg., Dr. A. Santos Ave.', '099632781');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('003', 'Regine', 'Marlow', '090673259', 'Vivere Hotel, Bridgeway Avenue Corner Asean Drive, Filinvest Corporate City', '099569871');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('004', 'Darius', 'Senft', '981652610', '1420 A Maceda Street Corner Loyola Streets Sampaloc 1008', ' 090663251');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('005', 'Franzi', ' Xu', ' 989654494', 'Unit 11 & 12 Richland Bldg., Dr. A. Santos Ave.', '099634781');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('006', 'Verginius', 'Bergman', '090678659', 'Vivere Hotel, Bridgeway Avenue Corner Asean Drive, Filinvest Corporate City', '099523871');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('007', 'Ansaldo', 'Watson', '099632549', 'R.M.T. Industrial Complex, Tunasan Muntinlupa City', '091783561');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('008', 'Milan', 'Milani', '099523694', 'Rm. 642 Padilla Delos Reyes Building, 232 Juan Luna Street, Binondo', '091723561');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('009', 'Abeni', 'Dodge', '091789230', '1003 Masangkay Street Cor. Soler Street Binondo 1000', '097695211');
+INSERT INTO `user_tb` (`user_id`, `user_FirstName`, `user_LastName`, `user_ContactNumber`, `user_address`, `user_EmergencyContact`) VALUES ('010', 'Katya', 'Campos', '091923560', 'EMCOR Building, Pendatun Avenue corner Snatol Street', '092536742');
+
+insert into responder_tb
+
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1102', 'Moses', 'Bello', 'Door 1 Belle-Fran Arcade, Palma Gil Street, Barangay Obrero', '25', '090671259', '*CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1103', 'Elinor', 'Word', '\r\nAdministration Building, Carmelray Industrial Park, Canlubang', '30', '090673259', '*UPLOADED CERTIFICATION*');
+UPDATE `responder_tb` SET `responder_FirstName` = 'Suzan', `responder_LastName` = 'Boland', `responder_address` = 'YIC Building, Cor. U.N. Avenue, Ermita', `responder_age` = '35', `responder_ContactNumber` = '099523452', `responder_emtCertifications` = '*UPLOADED CERTIFICATION*' WHERE `responder_tb`.`responder_id` = 1104;
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1105', 'Lona', 'Valles', '\r\nGango', '28', '099632581', '*UPLOADED CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1106', 'Tamala ', 'Oliva','481 D. Munoz Avenue corner Tandang Sora', '21', '091787892', '*UPLOADED CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1107', 'Bettie ', 'Faulk', 'Real Street', '45', '091787652', '*UPLOADED CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1108', 'Margeret ', ' Maxey', '739 G. Araneta Avenue', '34', '097833955', '*UPLOADED CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1109', 'Mohammed', 'Maupon', '\r\nPhilippine Stock Exchange Center, Ortigas Center', '51', '096312785', '*UPLOADED CERTIFICATION*');
+INSERT INTO `responder_tb` (`responder_id`, `responder_FirstName`, `responder_LastName`, `responder_address`, `responder_age`, `responder_ContactNumber`, `responder_emtCertifications`) VALUES ('1110', 'Marita', 'Lassiter', 'Merco Compound', '22', '093614526', '*UPLOADED CERTIFICATION*');
+
+insert into hospital_tb
+
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('546 T Alonzo Street Manila', 'Conner District Hospital', '8361 1124');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('ETG Building Mayombo District', 'Far North Luzon General Hospital & Training Center', '8361 1124');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('1679 Espana 1000 Manila', 'Luis Hora Memorial Regional Hospital', '8367 2031');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('142 Kamias Road Quezon City', 'Bataan General Hospital and Medical Center', '8294 2571');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('Corner Bollos Streets, National Highway', 'Jose B. Lingad Memorial Regional Hospital', '8863 2500');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('50 Maria Elena Quezon City', 'Mariveles Mental Hospital', '8682 2222');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('Real Street Barangay Songco', 'Paulino J. Garcia Memorial Research & Medical Center', '8939 7229');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('617 Elcano 1000 Manila', 'Talavera General Hospital', '8937 4552');
+INSERT INTO `hospital_tb` (`hospital_address`, `hospital_name`, `hospital_ContactNumber`) VALUES ('Atrium Of Makati 1200', 'Lung Center of the Philippines', '8924 6101');
+
+insert into ambulance_tb
+
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('\r\nEstrella corner Yangco Street, Navotas East', 'NOT AVAILABLE', 'NOT AVAILABLE');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('207 Hillcrest Drive Pasig City', 'AVAILABLE', '3 ');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('375 Quiapo Manila', 'AVAILABLE', '1');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('7 Blk 1a-4 Road 18 Phase 5 Cogeo Village,1870', '\r\nNOT AVAILABLE', 'NOT AVAILABLE');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('Alsons Building 2286 Pasong Tamo Ext. 1200', 'NOT AVAILABLE ', 'NOT AVAILABLE ');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('9-A Valero Tower, 122 Valero Street, Salcedo Village', 'AVAILABLE', '1');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('877 M. Dela Fuente Street, Santa Mesa', 'AVAILABLE', '2');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('G/F Vip Building Nuestra De Guia Corner Alhambra Streets Ermita 1000', 'AVAILABLE', '3');
+INSERT INTO `ambulance_tb` (`ambulance_address`, `ambulance_availability`, `ambulance_capacity`) VALUES ('40 Lourdes St. Aba Homes, 1870', 'AVAILABLE', '2');
+
+insert into administrator_tb
+
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '1', '1101', '3/F Limketkai Building Ortigas Avenue Greenhills 1502', NULL, NULL, 'Good feedbacks and response time.');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '2', '1102', '50 Maria Elena Quezon City', NULL, NULL, '\r\nIntegrated a locally based accounting system with RIS and LIS.');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '3', '1103', '142 Kamias Road Quezon City', NULL, NULL, 'Healthcare System (HCS)');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '4', '1104', '546 T Alonzo Street Manila', NULL, NULL, 'Ancillary Results Management system (ARMS)');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '5', '1105', '617 Elcano 1000 Manila', '', '', 'Medication Management System (MMS)');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '6', '1106', '1679 Espana 1000 Manila', '', '', 'MD Portals(MDP) and accepts health card');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '7', '1107', 'Atrium Of Makati 1200', '', '', 'COHESS Clinic System and EMR');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '8', '1108', 'Corner Bollos Streets, National Highway', '', '', 'First fully cloud-based HIS in the Philippines');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '9', '1109', 'ETG Building Mayombo District', '', '', 'Replaced a 17 year old system that had 5 failed implementations');
+INSERT INTO `administrator_tb` (`application_name`, `user_id`, `responder_id`, `hospital_address`, `user_credentials`, `responder_credentials`, `hospital_informations`) VALUES ('InstAID', '10', '1110', 'Real Street Barangay Songco', '', '', 'KPI of Discharge time under 10 minutes');
+
+
+
+
+
+
